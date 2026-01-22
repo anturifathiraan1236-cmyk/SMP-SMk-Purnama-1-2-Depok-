@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMP-SMK Purnama 1/2 | Sekolah Kreator & Inovator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --navy: #001F3F;
+            --grey-light: #F4F4F4;
+            --grey-dark: #4A4A4A;
+        }
+        .bg-navy { background-color: var(--navy); }
+        .text-navy { color: var(--navy); }
+        .bg-grey-light { background-color: var(--grey-light); }
+    </style>
+</head>
+<body class="font-sans text-gray-800">
+
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-navy rounded-full flex items-center justify-center text-white font-bold">P</div>
+                <span class="font-bold text-xl tracking-tight text-navy">SMP-SMK PURNAMA 1/2</span>
+            </div>
+            <div class="hidden md:flex space-x-6 font-medium text-gray-600">
+                <a href="#" class="hover:text-navy">Home</a>
+                <a href="#profil" class="hover:text-navy">Profil</a>
+                <a href="#jurusan" class="hover:text-navy">Jurusan</a>
+                <a href="#biaya" class="hover:text-navy">Biaya</a>
+                <a href="#kontak" class="hover:text-navy">Kontak</a>
+            </div>
+            <a href="https://wa.me/6281333547710" class="bg-navy text-white px-6 py-2 rounded-full font-semibold hover:bg-blue-900 transition">Daftar Sekarang</a>
+        </div>
+    </nav>
+
+    <header class="relative h-[80vh] flex items-center justify-center text-white overflow-hidden">
+        <div class="absolute inset-0 bg-navy/70 z-10"></div>
+        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="absolute inset-0 w-full h-full object-cover" alt="Lab Komputer">
+        <div class="relative z-20 text-center px-4 max-w-4xl">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Wujudkan Masa Depanmu di Sekolah Para Kreator & Inovator!</h1>
+            <p class="text-xl mb-8 opacity-90">Pendidikan berkualitas, fasilitas berkelas, dengan biaya yang tetap terjangkau.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="#" class="bg-cyan-500 hover:bg-cyan-600 text-white px-8 py-3 rounded-lg font-bold">Lihat Brosur Digital</a>
+                <a href="https://wa.me/6281333547710" class="bg-white text-navy hover:bg-gray-100 px-8 py-3 rounded-lg font-bold border-2 border-white">Daftar Via WhatsApp</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="profil" class="py-20 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-navy mb-12">Mengapa Memilih Kami?</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-8 bg-grey-light rounded-xl hover:shadow-lg transition">
+                    <i class="fas fa-graduation-cap text-4xl text-navy mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Akademik Cerdas</h3>
+                    <p class="text-gray-600">Kurikulum modern yang relevan dengan kebutuhan industri masa depan.</p>
+                </div>
+                <div class="p-8 bg-grey-light rounded-xl hover:shadow-lg transition">
+                    <i class="fas fa-laptop-code text-4xl text-navy mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Unggul Teknologi</h3>
+                    <p class="text-gray-600">Penguasaan IT dan kreativitas digital sebagai kompetensi utama siswa.</p>
+                </div>
+                <div class="p-8 bg-grey-light rounded-xl hover:shadow-lg transition">
+                    <i class="fas fa-mosque text-4xl text-navy mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Karakter Religius</h3>
+                    <p class="text-gray-600">Lingkungan belajar yang nyaman, disiplin, dan menjunjung nilai akhlak.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="jurusan" class="py-20 bg-navy text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Pilihan Jurusan Unggulan</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="border border-blue-800 p-6 rounded-lg text-center hover:bg-blue-900 transition">
+                    <i class="fas fa-code text-4xl mb-4 text-cyan-400"></i>
+                    <h4 class="font-bold text-lg">RPL</h4>
+                    <p class="text-sm opacity-70">Rekayasa Perangkat Lunak</p>
+                </div>
+                <div class="border border-blue-800 p-6 rounded-lg text-center hover:bg-blue-900 transition">
+                    <i class="fas fa-network-wired text-4xl mb-4 text-cyan-400"></i>
+                    <h4 class="font-bold text-lg">TKJ</h4>
+                    <p class="text-sm opacity-70">Teknik Komputer Jaringan</p>
+                </div>
+                <div class="border border-blue-800 p-6 rounded-lg text-center hover:bg-blue-900 transition">
+                    <i class="fas fa-briefcase text-4xl mb-4 text-cyan-400"></i>
+                    <h4 class="font-bold text-lg">MPLB</h4>
+                    <p class="text-sm opacity-70">Manajemen Perkantoran</p>
+                </div>
+                <div class="border border-blue-800 p-6 rounded-lg text-center hover:bg-blue-900 transition">
+                    <i class="fas fa-car text-4xl mb-4 text-cyan-400"></i>
+                    <h4 class="font-bold text-lg">TKR/TO</h4>
+                    <p class="text-sm opacity-70">Teknik Otomotif</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="biaya" class="py-20 bg-grey-light">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-3xl font-bold text-center text-navy mb-4">Investasi Pendidikan</h2>
+            <p class="text-center text-gray-600 mb-12">Dapatkan biaya pendidikan yang transparan dan terjangkau.</p>
+            
+            <div class="bg-white p-8 rounded-2xl shadow-xl border-t-4 border-navy">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="border-b-2 border-gray-100">
+                            <th class="py-4 font-bold text-navy">Komponen Biaya</th>
+                            <th class="py-4 font-bold text-navy text-right">Keterangan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="border-b border-gray-50">
+                            <td class="py-4">SPP Per Bulan</td>
+                            <td class="py-4 text-right font-bold text-green-600">Rp 270.000</td>
+                        </tr>
+                        <tr class="border-b border-gray-50">
+                            <td class="py-4">Pendaftaran (Umum)</td>
+                            <td class="py-4 text-right">Rp 2.020.000</td>
+                        </tr>
+                        <tr class="bg-red-50">
+                            <td class="py-4 px-2 font-bold text-red-600 italic">Promo Jurusan Otomotif</td>
+                            <td class="py-4 px-2 text-right">
+                                <span class="line-through text-gray-400 mr-2">Rp 2.020.000</span>
+                                <span class="text-red-600 font-bold">Rp 1.500.000!</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="mt-6 p-4 bg-blue-50 rounded text-sm text-blue-800">
+                    * Syarat & Ketentuan berlaku untuk promo biaya pendaftaran.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="kontak" class="bg-navy text-white pt-16 pb-8">
+        <div class="container mx-auto px-6 grid md:grid-cols-3 gap-12 border-b border-blue-900 pb-12">
+            <div>
+                <h4 class="text-xl font-bold mb-6">Purnama 1/2</h4>
+                <p class="opacity-70 leading-relaxed">Mencetak generasi unggul di bidang teknologi dan bisnis dengan landasan karakter yang kuat.</p>
+            </div>
+            <div>
+                <h4 class="text-xl font-bold mb-6">Hubungi Kami</h4>
+                <ul class="space-y-4 opacity-70">
+                    <li><i class="fas fa-map-marker-alt mr-3"></i> Jln. Sonokeling Raya RT 005 RW 022</li>
+                    <li><i class="fab fa-whatsapp mr-3"></i> +62 813-3354-7710</li>
+                    <li><i class="fab fa-instagram mr-3"></i> @smpsmkpurnamadepok</li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-xl font-bold mb-6">Lokasi</h4>
+                <div class="h-40 bg-blue-900 rounded-lg flex items-center justify-center">
+                    <span class="text-sm italic">Peta Google Maps Di Sini</span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center pt-8 opacity-50 text-sm">
+            Copyright &copy; 2026 SMP-SMK Purnama Depok. All Rights Reserved.
+        </div>
+    </footer>
+
+    <a href="https://wa.me/6281333547710" class="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-2xl hover:scale-110 transition z-[100]">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
